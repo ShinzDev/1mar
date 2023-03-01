@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  background-color: lightblue;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  top: 0;
+  position: sticky;
+}
+@media (max-width: 575px) {
+  nav {
+    height: 0;
+  }
+}
+nav .logo {
+  color: rgb(100, 170, 9);
+  font-size: 40px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  align-items: left;
+}
+
+a {
+  margin-left: 20px;
+}/*# sourceMappingURL=style.css.map */

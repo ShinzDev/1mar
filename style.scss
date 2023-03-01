@@ -1,0 +1,45 @@
+$bgc:red;
+$color:rgb(100, 170, 9);
+
+$colorpseduo:#fff;
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav{
+    display: flex;
+    background-color: lightblue;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    top: 0;
+    position: sticky;
+
+    @media (max-width:575px) {
+        height: 0;
+       
+    }
+
+    .logo{
+        color: $color;
+        font-size: 40px;
+    }
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    align-items: left;
+    
+}
+
+a{
+    margin-left: 20px;
+}
+
+
